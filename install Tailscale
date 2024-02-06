@@ -1,4 +1,6 @@
+#install Tailscale
 curl -fsSL https://tailscale.com/install.sh | sh
-#install curl if needed, sudo apt install curl
+#install curl if needed:
+#sudo apt install curl
 sudo tailscale up
 #log in at https://login.tailscale.com/admin/machines
