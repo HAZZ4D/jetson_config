@@ -1,0 +1,10 @@
+Server: Ubuntu 22.04 VM on Baremetal Host) (cockpit:cockpit)
+#install
+sudo apt-get install cockpit -y
+#Start service
+sudo systemctl enable --now cockpit.socket
+#Open a web browser and point it to https://localadmin:9090.
+#if firewall is blocking
+sudo ufw allow 9090
+#in cockpit web browser page, turn on administrative access
+#top left of web screen, click on “cockpit” and select add new host.
