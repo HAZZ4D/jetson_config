@@ -1,5 +1,4 @@
-Server: Ubuntu 22.04 VM on Baremetal Host) (cockpit:cockpit)
-#install
+#install cockpit
 sudo apt-get install cockpit -y
 #Start service
 sudo systemctl enable --now cockpit.socket
